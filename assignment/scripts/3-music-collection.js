@@ -23,3 +23,14 @@ addToCollection('The Persona Tape', 'Maxo Kream', 2016);
 addToCollection('Time Served', 'Moneybagg Yo', 2020);
 
 console.log(collection);
+
+function showCollection( array ) {
+    console.log(collection.length);
+    for (let i = 0; i < collection.length; i++) {
+    let albums = collection[i]
+    console.log(albums.title + ' by ' + albums.artist + ' published in ' + albums.yearPublished)
+}
+}
+
+showCollection(collection);
+
