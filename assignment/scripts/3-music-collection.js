@@ -34,3 +34,17 @@ function showCollection( array ) {
 
 showCollection(collection);
 
+
+function findByArtist( artist ) {
+    let artistResults = [];
+    for (let i = 0; i < collection.length; i++) {
+        let album = collection[i]; {
+        if (album.artist === artist) 
+        artistResults.push(album);
+    }
+}
+    return artistResults;
+}
+
+console.log(findByArtist('Rick Ross'));
+
