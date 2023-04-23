@@ -46,5 +46,5 @@ function findByArtist( artist ) {
     return artistResults;
 }
 
-console.log(findByArtist('Rick Ross'));
+console.log(findByArtist('Jay-Z'));
 
